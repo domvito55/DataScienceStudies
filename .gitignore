@@ -1,3 +1,6 @@
+/02_apache-spark-3-fundamentals/DataFiles/
+/02_apache-spark-3-fundamentals/01/demos/DataFiles/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

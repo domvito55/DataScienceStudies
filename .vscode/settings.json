@@ -1,0 +1,5 @@
+{
+  "jupyter.interactiveWindow.creationMode": "single",
+  "jupyter.interactiveWindow.textEditor.executeSelection": true,
+  "jupyter.interactiveWindow.viewColumn": "beside"
+}

@@ -1,0 +1,29 @@
+=====================================================
+Sample Scala code used in Spark Shell
+=====================================================
+
+1. val numbers = List(1,2,3,4,5)
+
+2. val numbersDF = sc.parallelize(numbers).toDF("Id")
+
+3. numbersDF.show()
+
+
+
+
+=====================================================
+Sample Python code used in PySpark Shell
+=====================================================
+
+1. numbers = [[1],[2],[3],[4],[5]]
+
+2. numbersDF = (
+                spark
+                    .createDataFrame
+                    (
+                        numbers,         # Pass data collection
+                        "Id: int"        # Pass schema as string
+                    )
+            )
+
+3. numbersDF.show()
